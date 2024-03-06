@@ -1,4 +1,5 @@
 import React from 'react'
+import Features from './Features'
 
 const Bitcoinbtc = () => {
   return (
@@ -38,6 +39,9 @@ const Bitcoinbtc = () => {
         </div>
        
       </div>
+      <Features/>
+
+    
     </div>
   )
 }

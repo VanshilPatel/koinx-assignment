@@ -1,14 +1,16 @@
 import React from 'react'
 import Bitcoinbtc from './Bitcoinbtc'
-import Features from './Features'
+import Performance from './Performance'
+
 
 const LeftContainer = () => {
   return (
-    <>
+    <div>
       <Bitcoinbtc/>
-      <Features/>
+      <Performance/>
+     
 
-    </>
+    </div>
   )
 }
 
