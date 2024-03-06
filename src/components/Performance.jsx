@@ -8,6 +8,8 @@ const Performance = () => {
       <PerformanceCard low={46930.22} high={49343.83}/>
       <PerformanceCard low={16930.22} high={49743.83}/>
 
+     
+
 
     </div>
   )

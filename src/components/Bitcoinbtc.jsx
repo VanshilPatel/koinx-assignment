@@ -4,7 +4,7 @@ import Features from './Features'
 const Bitcoinbtc = () => {
   return (
     <div className='border rounded-sm' style={{ boxShadow: '0px 0px 1px 0px rgba(0, 0, 0, 0.1)'}}>
-      <div className='flex items-center gap-x-3 h-10 mt-6 w-881'>
+      <div className='flex items-center gap-x-2 h-10 mt-6 w-440'>
       <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <rect width="36" height="36" fill="url(#pattern0)"/>
 <defs>

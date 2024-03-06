@@ -14,11 +14,12 @@ function App() {
     <>
     <div>
       <Navbar/>
-      <div className='bg-gray-100 px-10 py-2'> Cryptocurrencies -- Bitcoin</div>
-      <div className='flex'>
+      <div className='bg-gray-100 px-8 py-2'> Cryptocurrencies -- Bitcoin</div>
+      <div className='flex bg-white'>
         <LeftContainer/>
         <RightContainer/>
       </div>
+      
     </div>
     </>
   )
