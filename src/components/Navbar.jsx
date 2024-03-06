@@ -63,6 +63,7 @@ const Navbar = () => {
       <div className='flex-grow ml-96'>
         <NavbarContents></NavbarContents>
       </div>
+     
     </div>
   )
 }
