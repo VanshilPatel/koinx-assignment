@@ -3,7 +3,7 @@ import GetStartedCard from './GetStartedCard'
 
 const RightContainer = () => {
   return (
-    <div>
+    <div className='w-426 pl-4 ml-6 '>
       <GetStartedCard/>
     </div>
   )

@@ -1,17 +1,4 @@
-import React from 'react'
-
-const GetStartedCard = () => {
-  return (
-    <div className='flex flex-col bg-customBlue border rounded-2xl py-7'>
-      <div className='flex flex-col justify-center items-center mt-31'>
-        <span className='text-white font-medium text-2xl'>Get Started with KoinX</span>
-        <span className='text-white font-medium text-2xl'>for FREE </span>
-        <span className='text-white font-medium text-sm mt-9'>With our range of features that you can equip for</span>
-        <span className='text-white font-medium text-sm my-1'>free,KoinX allows you to be more educated and </span>
-        <span className='text-white font-medium text-sm my-1'>aware of your tax reports</span>
-      </div>
-      <div className='mx-auto mt-8'>
-      <svg width="180" height="167" viewBox="0 0 180 167" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="180" height="167" viewBox="0 0 180 167" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1_981)">
 <path d="M26.833 153.729C61.721 170.384 118.283 170.389 153.171 153.729C188.059 137.068 188.054 110.067 153.171 93.4114C118.288 76.7561 61.721 76.7561 26.833 93.4114C-8.05487 110.067 -8.04981 137.073 26.833 153.729Z" fill="#1F67FF"/>
 <path d="M153.05 141.421C159.475 141.421 164.684 138.935 164.684 135.868C164.684 132.801 159.475 130.314 153.05 130.314C146.624 130.314 141.415 132.801 141.415 135.868C141.415 138.935 146.624 141.421 153.05 141.421Z" fill="#0052FE"/>
@@ -156,13 +143,3 @@ const GetStartedCard = () => {
 </clipPath>
 </defs>
 </svg>
-
-      </div>
-      <div className='mx-auto px-3 mt-5 mb-9'>
-      <button className='border rounded-lg bg-white font-semibold text-base px-4 py-3'>Get Started for FREE -- </button>
-      </div>
-    </div>
-  )
-}
-
-export default GetStartedCard
