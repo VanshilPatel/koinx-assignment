@@ -6,7 +6,7 @@ import sellsvg from "../assets/sell.svg"
 
 const Sentiment = () => {
   return (
-    <div className='mb-10'>
+    <div className='mb-10 border rounded-md'>
          <span className='font-semibold text-2xl mx-11 mb-4'>Sentiment</span>
          <p className='text-lg font-semibold mx-11 mt-4'>Key events i</p>
          <KeyEventCards/>

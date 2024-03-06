@@ -5,7 +5,7 @@ import right from "../assets/right.svg"
 
 const AboutBitcoin = () => {
   return (
-    <div className='mx-11'>
+    <div className='mx-11 border rounded-md'>
        <span className='font-semibold text-2xl  mb-4'>About Bitcoin</span>
        <p className='font-bold text-lg pt-3'>What is bitcoin ?</p>
        <p className='w-830 mt-2 text-gray-500 text-base font-medium'>Bitcoin’s price today is US$16,951.82, with a 24-hour trading volume of $19.14 B. BTC is +0.36% in the last 24 hours. It is currently -7.70% from its 7-day all-time high of $18,366.66, and 3.40% from its 7-day all-time low of $16,394.75. BTC has a circulating supply of 19.24 M BTC and a max supply of 21 M BTC.</p>
