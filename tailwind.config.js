@@ -22,12 +22,18 @@ export default {
         456 : "456px",
         830 : "830px",
         403 : "403px",
-        833 : "833px"
+        833 : "833px",
+        646 : "646px",
+        96.76 : "96.76px",
+        15 : '15px',
+        136 : "136px"
 
       },
       colors: {
         customBlue: "#0052FE",
         cardGrey : "#E8F4FD",
+      
+       
       },
     },
   },

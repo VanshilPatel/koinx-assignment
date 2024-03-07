@@ -4,6 +4,7 @@ import LeftContainer from './components/LeftContainer'
 import Navbar from './components/Navbar'
 
 import RightContainer from './components/RightContainer'
+import doubleright from "./assets/doubleright.svg"
 
 
 
@@ -14,12 +15,15 @@ function App() {
     <>
     <div>
       <Navbar/>
-      <div className='bg-gray-100 px-8 py-2'> Cryptocurrencies -- Bitcoin</div>
+      <div className='flex mx-3'>
+       <span className='ml-7'>Cryptocurrencies</span>  <img  className='ml-2' src={doubleright}></img> <span  className='ml-2'>Bitcoin</span>
+       </div>
       <div className='flex bg-white'>
         <LeftContainer/>
         <RightContainer/>
       </div>
-      
+    
+
     </div>
     </>
   )

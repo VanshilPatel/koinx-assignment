@@ -4,6 +4,7 @@ import Bitcoinbtc from './Bitcoinbtc'
 import Fundamentals from './Fundamentals'
 import Performance from './Performance'
 import Sentiment from './Sentiment'
+import Team from './Team'
 import Tokenomics from './Tokenomics'
 
 
@@ -17,6 +18,7 @@ const LeftContainer = () => {
       <Sentiment/>
       <AboutBitcoin/>
       <Tokenomics/>
+      <Team/>
      
 
     </div>

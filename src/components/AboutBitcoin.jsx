@@ -1,6 +1,7 @@
 import React from 'react'
 import left from "../assets/left.svg"
 import right from "../assets/right.svg"
+import arrow_right from "../assets/arrow_right.svg"
 
 
 const AboutBitcoin = () => {
@@ -28,7 +29,12 @@ const AboutBitcoin = () => {
                 <div className='flex flex-col justify-center ml-2  pl-4 '>
                     <p className='text-white text-xl font-bold'>Calculate Your</p>
                     <p className='text-white text-xl font-bold'>Profits</p>
-                    <button className='mt-2 text-black bg-white border rounded-md p-1 text-sm font-semibold'>Check Now -</button>
+                    <button className='mt-2 text-black bg-white border rounded-md p-1 text-sm font-semibold'>
+                    <div className='flex ml-2'>
+                        Check Now
+                        <img src={arrow_right} className='ml-2 pl-1'></img>
+                        </div>
+                        </button>
                 </div>
 
             </div>
@@ -39,7 +45,12 @@ const AboutBitcoin = () => {
                 <div className='flex flex-col justify-center ml-2  pl-4 '>
                     <p className='text-white text-xl font-bold'>Calculate Your Tax</p>
                     <p className='text-white text-xl font-bold'>Liability</p>
-                    <button className='mt-2 text-black bg-white border rounded-md p-1 text-sm font-semibold'>Check Now -</button>
+                    <button className='mt-2 text-black bg-white border rounded-md p-1 text-sm font-semibold w-136'>
+                        <div className='flex  ml-2'>
+                        Check Now
+                        <img src={arrow_right} className='ml-2 pl-1'></img>
+                        </div>
+                        </button>
                 </div>
 
             </div>

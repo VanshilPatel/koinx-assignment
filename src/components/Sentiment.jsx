@@ -3,14 +3,27 @@ import KeyEventCards from './KeyEventCards'
 import buysvg from "../assets/buy.svg"
 import holdsvg from "../assets/hold.svg"
 import sellsvg from "../assets/sell.svg"
+import i from "../assets/i.svg"
 
 const Sentiment = () => {
   return (
     <div className='mb-10 border rounded-md'>
          <span className='font-semibold text-2xl mx-11 mb-4'>Sentiment</span>
-         <p className='text-lg font-semibold mx-11 mt-4'>Key events i</p>
+
+
+         <div className='flex pt-4 items-center'>
+         <span className='text-lg font-semibold ml-11 mr-2'>Key events </span>
+         <img src={i} className=''></img>
+         </div>
+
+
          <KeyEventCards/>
-         <p className='text-lg font-semibold mx-11 mt-4'> Analyst Estimates i</p>
+
+         <div className='flex pt-4 items-center'>
+         <span className='text-lg font-semibold ml-11 mr-2'>Analyst Estimates</span>
+         <img src={i} className=''></img>
+         </div>
+
 
          <div className='flex'>
             <svg className='mx-11 mt-4' width="117" height="121" viewBox="0 0 117 121" fill="none" xmlns="http://www.w3.org/2000/svg">
