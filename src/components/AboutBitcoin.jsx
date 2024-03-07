@@ -32,34 +32,35 @@ const AboutBitcoin = () => {
       <span className='font-semibold text-2xl mb-4'>Already Holding Bitcoin ?</span>
 
       <div className='flex pt-3'>
-        <div className='flex w-403 bg-green-400 border rounded-lg p-3'>
-          <img src={left} alt="Left arrow" />
-          <div className='flex flex-col justify-center ml-2 pl-4'>
-            <p className='text-white text-xl font-bold'>Calculate Your</p>
-            <p className='text-white text-xl font-bold'>Profits</p>
-            <button className='mt-2 text-black bg-white border rounded-md p-1 text-sm font-semibold'>
-              <div className='flex ml-2'>
-                Check Now
-                <img src={arrow_right} alt="Right arrow" className='ml-2 pl-1' />
-              </div>
-            </button>
-          </div>
+  <div className='flex w-403 border rounded-lg p-3' style={{ background: 'linear-gradient(90deg, #79F1A4 0%, #0E5CAD 100%)' }}>
+    <img src={left} alt="Left arrow" />
+    <div className='flex flex-col justify-center ml-2 pl-4'>
+      <p className='text-white text-xl font-bold'>Calculate Your</p>
+      <p className='text-white text-xl font-bold'>Profits</p>
+      <button className='mt-2 text-black bg-white border rounded-md p-1 text-sm font-semibold'>
+        <div className='flex ml-2'>
+          Check Now
+          <img src={arrow_right} alt="Right arrow" className='ml-2 pl-1' />
         </div>
+      </button>
+    </div>
+  </div>
 
-        <div className='flex w-403 bg-orange-400 mx-2 border rounded-lg p-3'>
-          <img src={right} alt="Right arrow" />
-          <div className='flex flex-col justify-center ml-2 pl-4'>
-            <p className='text-white text-xl font-bold'>Calculate Your Tax</p>
-            <p className='text-white text-xl font-bold'>Liability</p>
-            <button className='mt-2 text-black bg-white border rounded-md p-1 text-sm font-semibold w-136'>
-              <div className='flex  ml-2'>
-                Check Now
-                <img src={arrow_right} alt="Right arrow" className='ml-2 pl-1' />
-              </div>
-            </button>
-          </div>
+  <div className='flex w-403 bg-orange-400 mx-2 border rounded-lg p-3' style={{ background: 'linear-gradient(90deg, #FF9865 0%, #EF3031 100%)' }}>
+    <img src={right} alt="Right arrow" />
+    <div className='flex flex-col justify-center ml-2 pl-4'>
+      <p className='text-white text-xl font-bold'>Calculate Your Tax</p>
+      <p className='text-white text-xl font-bold'>Liability</p>
+      <button className='mt-2 text-black bg-white border rounded-md p-1 text-sm font-semibold w-136'>
+        <div className='flex ml-2'>
+          Check Now
+          <img src={arrow_right} alt="Right arrow" className='ml-2 pl-1' />
         </div>
-      </div>
+      </button>
+    </div>
+  </div>
+</div>
+
 
       <hr className='mt-4 mb-5' />
 

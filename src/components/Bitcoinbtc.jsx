@@ -3,6 +3,8 @@ import Features from './Features';
 import bitcoin from '../assets/bitcoin.svg';
 import uparrow from '../assets/up_arrow.svg';
 import { useState, useEffect } from 'react';
+import TradingViewWidget from './TradingViewWidget';
+
 
 const Bitcoinbtc = () => {
     const [bitcoinData, setBitcoinData] = useState({
@@ -58,7 +60,7 @@ const Bitcoinbtc = () => {
         <hr className="text-gray-600 mt-6 mb-3" />
 
         <div className='h-96 bg-slate-300'>
-          Chart to be embedded
+        <TradingViewWidget/>
         </div>
 
       </div>
