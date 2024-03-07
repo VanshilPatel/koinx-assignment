@@ -4,7 +4,7 @@ import TrendingCoins from './TrendingCoins'
 
 const RightContainer = () => {
   return (
-    <div className='w-426 pl-1 ml-2 '>
+    <div className='w-426 pl-1 mt-3 ml-16 '>
       <GetStartedCard/>
       <TrendingCoins/>
     </div>

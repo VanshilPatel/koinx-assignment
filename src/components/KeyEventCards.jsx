@@ -5,7 +5,7 @@ import green from '../assets/green.svg'
 const KeyEventCards = () => {
     return (
       <div className='flex'>
-        <div className="w-456 p-4 h-full bg-blue-200 rounded-lg p-18 flex items-start ml-11 mt-3">
+        <div className="w-456 p-4 h-full bg-blue-200 rounded-lg p-18 flex items-start  mt-3">
           <img src={blue} alt="logo" className='mr-4' />
           <div className="text-black flex-grow">
             <p className="font-medium text-sm mb-2">

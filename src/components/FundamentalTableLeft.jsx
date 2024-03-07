@@ -1,8 +1,8 @@
-import React from 'react';
+// import React from 'react';
 
 const FundamentalTableLeft = () => {
   return (
-    <div className='flex flex-col justify-center gap-y-3 w-440'>
+    <div className='flex flex-col justify-center gap-y-3 w-440 p-4'>
       <div className='flex justify-between gap-x-5'>
         <span className='text-sm font-medium text-gray-400'>Bitcoin Price</span>
         <span className='text-sm font-medium'>$16,815.46</span>

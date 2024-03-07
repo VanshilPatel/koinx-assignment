@@ -15,10 +15,10 @@ function App() {
     <>
     <div>
       <Navbar/>
-      <div className='flex mx-3'>
-       <span className='ml-7'>Cryptocurrencies</span>  <img  className='ml-2' src={doubleright}></img> <span  className='ml-2'>Bitcoin</span>
+      <div className='flex mx-3 pt-2'>
+       <span className='ml-11'>Cryptocurrencies</span>  <img  className='ml-2' src={doubleright}></img> <span  className='ml-2'>Bitcoin</span>
        </div>
-      <div className='flex bg-white'>
+      <div className='flex'>
         <LeftContainer/>
         <RightContainer/>
       </div>
