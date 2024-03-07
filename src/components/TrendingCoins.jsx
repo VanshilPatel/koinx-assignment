@@ -18,7 +18,7 @@ const TrendingCoins = () => {
      
   }, []);
   return (
-    <div className='flex flex-col gap-y-2 mt-5 border rounded-2xl pt-3 px-4 pb-6'>
+    <div className='flex flex-col gap-y-2 mt-5 border bg-white rounded-2xl pt-3 px-4 pb-6'>
       <span className='font-semibold text-2xl'>Trending Coins (24h)</span>
 
       {topCoins.map((coin) => (

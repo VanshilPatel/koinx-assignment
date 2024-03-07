@@ -4,7 +4,7 @@ import NavbarContents from './NavbarContents'
 
 const Navbar = () => {
   return (
-    <div className='flex h-20 items-center w-1440 border relative' style={{ boxShadow: '0px 0px 1px 0px rgba(0, 0, 0, 0.1)' }}>
+    <div className='flex h-20 items-center bg-white w-1440 border relative' style={{ boxShadow: '0px 0px 1px 0px rgba(0, 0, 0, 0.1)' }}>
       <div className='ml-10'>
       <svg width="97" height="24" viewBox="0 0 97 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1_1123)">

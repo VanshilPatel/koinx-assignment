@@ -6,6 +6,8 @@ import Navbar from './components/Navbar'
 import RightContainer from './components/RightContainer'
 import doubleright from "./assets/doubleright.svg"
 
+import FooterCardsContainer from './components/FooterCardsContainer'
+
 
 
 function App() {
@@ -13,7 +15,7 @@ function App() {
 
   return (
     <>
-    <div>
+    <div className='bg-slate-100'>
       <Navbar/>
       <div className='flex mx-3 pt-2'>
        <span className='ml-11'>Cryptocurrencies</span>  <img  className='ml-2' src={doubleright}></img> <span  className='ml-2'>Bitcoin</span>
@@ -22,6 +24,7 @@ function App() {
         <LeftContainer/>
         <RightContainer/>
       </div>
+      <FooterCardsContainer/>
     
 
     </div>
