@@ -22,18 +22,27 @@ const TrendingCoins = () => {
       <span className='font-semibold text-2xl'>Trending Coins (24h)</span>
 
       {topCoins.map((coin) => (
-        <div className='flex justify-between' key={coin.item.id}>
-          <span>{coin.item.name} ({coin.item.symbol})</span>
-          <button className={`bg-${coin.item.data.price_change_percentage_24h?.usd >= 0 ? 'green' : 'red'}-100 px-3 border rounded-sm ml-2`}>
-            <div className='flex'>
-              <img src={uparrow} alt='Up Arrow'></img>
-              <span className={`text-${coin.item.data.price_change_percentage_24h?.usd >= 0 ? 'green' : 'red'}-500 ml-1`}>
-                {coin.item.price_change_percentage_24h?.usd?.toFixed(2)}%
-              </span>
-            </div>
-          </button>
-        </div>
-      ))}
+  <div className='flex justify-between items-center' key={coin.item.id}>
+    <div className='flex items-center'>
+      <img src={coin.item.small} alt='symbol' className='w-8 h-8 mr-3' />
+      <span>({coin.item.name}) {coin.item.symbol}</span>
+    </div>
+    <button
+      className={`${
+        coin.item.data.price_change_percentage_24h?.usd < 0 ? 'bg-green-100' : 'bg-green-100'
+      } px-3 border rounded-sm ml-2`}
+    >
+      <div className='flex items-center'>
+        <img src={uparrow} alt='Up Arrow' className='w-4 h-4 mr-1' />
+        <span className={`text-${coin.item.data.price_change_percentage_24h?.usd ? 'green' : 'green'}-500`}>
+          {coin.item.data.price_change_percentage_24h?.usd?.toFixed(2)}%
+        </span>
+      </div>
+    </button>
+  </div>
+))}
+
+
     </div>
   );
 }

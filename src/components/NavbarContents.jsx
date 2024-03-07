@@ -6,7 +6,14 @@ const NavbarContents = () => {
     <button className='mx-3'>Crypto Taxes</button>
     <button className='mx-3'>Free Tools</button>
     <button className='mx-3'>Resource Center</button>
-    <button className='ml-4 w-136 bg-gradient-to-r from-blue-500 to-blue-600 text-white h-10 border rounded-lg p-2'>Get Started</button>
+    <button
+  className='ml-4 w-136 text-white h-10 border rounded-lg p-2'
+  style={{
+    background: 'linear-gradient(90deg, #2870EA 0%, #1B4AEF 100%)',
+  }}
+>
+  Get Started
+</button>
   </div>
   )
 }
